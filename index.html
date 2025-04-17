@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Born to Be an Au Pair</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #4b3f39; background-color: #fffaf7; }
+    header { background-color: #fff; padding: 2rem; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    header img.logo { height: 80px; margin-bottom: 1rem; }
+    header img.profile { border-radius: 50%; width: 120px; height: 120px; object-fit: cover; margin-top: 1rem; }
+    header h1 { font-size: 2.5rem; color: #b5838d; margin-top: 1rem; }
+    header p { font-size: 1.2rem; margin-top: 0.5rem; max-width: 600px; margin-left: auto; margin-right: auto; }
+    .cta-btn { background-color: #b5838d; color: #fff; padding: 1rem 2rem; border: none; border-radius: 8px; font-size: 1rem; cursor: pointer; transition: 0.3s; margin-top: 1.5rem; }
+    .cta-btn:hover { background-color: #946970; }
+
+    .container { max-width: 1100px; margin: 2rem auto; padding: 1rem; }
+    section { margin-bottom: 3rem; }
+    h2 { font-size: 2rem; color: #b5838d; margin-bottom: 1rem; }
+    ul { padding-left: 1.5rem; }
+    li { margin-bottom: 0.5rem; }
+
+    .form-section {
+      background-color: #fff0f5;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    form { display: flex; flex-direction: column; gap: 1rem; }
+    input, textarea { padding: 0.75rem; border: 1px solid #ccc; border-radius: 5px; font-size: 1rem; }
+    input[type="submit"] { background-color: #b5838d; color: white; font-weight: bold; cursor: pointer; border: none; transition: 0.3s; }
+    input[type="submit"]:hover { background-color: #946970; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Born to Be an Au Pair" class="logo">
+    <h1>Born to Be an Au Pair</h1>
+    <p>O curso completo para meninas que sonham em ser au pair nos EUA. Aprenda inglês, se prepare para as entrevistas e embarque com segurança e confiança!</p>
+    <img src="foto-gabriela.jpg" alt="Gabriela Woigt" class="profile">
+    <button class="cta-btn" onclick="window.location.href='https://wa.me/5541987247281'">Quero ser uma Au Pair</button>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Para quem é este curso?</h2>
+      <ul>
+        <li>Tem entre 18 e 26 anos e sonha em morar nos EUA</li>
+        <li>Quer ser uma au pair, mas se sente insegura com o inglês</li>
+        <li>Tem medo da entrevista com a host family ou com a agência</li>
+        <li>Busca um curso completo e com acompanhamento real</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>O que você vai aprender</h2>
+      <ul>
+        <li>Inglês prático desde o zero</li>
+        <li>Entrevista com agência e host family</li>
+        <li>Como montar um perfil campeão</li>
+        <li>Dicas culturais e preparação emocional</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Planos e Preços</h2>
+      <ul>
+        <li><strong>Starter - R$ 1.499:</strong> Aulas gravadas e PDFs</li>
+        <li><strong>Guided - R$ 1.899:</strong> + Mentorias em grupo</li>
+        <li><strong>Pro - R$ 2.199:</strong> + Comunidade exclusiva + bônus extras</li>
+      </ul>
+    </section>
+
+    <section class="form-section">
+      <h2>Garanta sua vaga agora</h2>
+      <form action="https://wa.me/5541987247281" method="get" target="_blank">
+        <input type="text" name="nome" placeholder="Seu nome completo" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <input type="tel" name="whatsapp" placeholder="Seu WhatsApp" required>
+        <textarea name="mensagem" rows="4" placeholder="Deixe sua dúvida ou mensagem (opcional)"></textarea>
+        <input type="submit" value="Quero ser uma Au Pair!">
+      </form>
+      <p style="margin-top: 1rem; font-size: 0.9rem; color: #555;">Ou envie um e-mail para: <strong>gabriela.woigt@gmail.com</strong></p>
+    </section>
+  </div>
+</body>
+</html>
